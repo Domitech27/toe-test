@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tours Operadores Esperanza, S.R.L.</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Tours Operadores Esperanza, S.R.L., web tours, vacaciones,Dominican Republic" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+	<title>Tours Operadores Esperanza, S.R.L.</title>
+	<meta charset="utf-8">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Content-Language" content="en" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Tours Operadores Esperanza, S.R.L., web tours, vacaciones,Dominican Republic" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 <link rel="icon" type="image/jpg" href="images/logo.jpg">

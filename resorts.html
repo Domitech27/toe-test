@@ -1,325 +1,106 @@
 <!DOCTYPE html>
-
-
-<style>
-#td
-{
-font-family: "century gothic";
-font-size: 30px;
-position: relative;
-}
-    #header
-    {
-        position: absolute;
-            background-color:white;
-            width:1380px;
-            height:200px;
-            z-index: 10;
-            filter: alpha(opacity=70);
-            -moz-opacity:.70;
-            opacity:0.70;
-        font-family: "summr_sketch";
-        font-size:50;
-        color:white;
-    }
-    ul {
-        list-style-type:none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: springgreen;
-        opacity: .90;
-        -moz-opacity:opacity(.40);
-        color: black;
-        font-family: "century gothic";
-        width: 1480px;
-        font-size: 20px;
-
-    }
-
-        ul li {
-            display: inline-block;
-            text-align: center;
-            padding: 20px 100px;
-            text-decoration:none;
-        }
-    #exclusive {
-        margin-top: 0px;
-        position: fixed;
-        background: url("img/saona.jpg");
-        width: 8330px;
-        height: 4200px;
-        border-radius: 4px;
-    }
-    .footer {
-        top:400;
-        position:relative;
-        background: black;
-        font-family: "summr_sketch";
-        color: white;
-        width: 1340px;
-    }
-#page
-    {
-        top:255;
-        position: relative;
-        z-index: 20;
-        color: white;
-        width:1330px;
-    }
-
-</style>
-<script>
-function Big(x)
-{
-x.style.height="300px";
-x.style.width="300px";
-}
-function small(x)
-{
-x.style.height="200px";
-x.style.width="200px";
-}
-</script>
-
-
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title> Resorts list </title>
-  </head>
-  <body>
-    <tr>
-        <th>
-            Number
-        </th>
-        <th>
-            Hotels
-        </th>
-        <th>
-            Estrellas
-        </th>
-        <th>
+    <head>
 
-        </th>
-    </tr>
-    <tr>
-        <th>
-            1
-        </th>
-        <th>
-            <a href="donjuan.html" style="text-decoration:none"> <font color="black"> Don Juan </font></a>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home</title>
+        
+        <!-- Google/Custom font -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+        
 
-        </th>
-        <th>
-            3/5 Estrellas
-        </th>
-        <th>
-            <a href="donjuan.html"><img src="img/DonJuan.jpg" width="200" onmouseover="Big(this)" onmouseout="small(this)"></a>
-        </th>
-    </tr>
-    <tr>
-        <th>
-            2
-        </th>
-        <th>
-            <a href="BelleBie.html" style="text-decoration:none"><font color="black"> Belle Bie </font> </a>
-        </th>
-        <th>
-            3/5 Estrellas
-        </th>
-        <th>
-            <a href="BelleBie.html"><img src="img/bellevue.jpg" width="200" onmouseover="Big(this)" onmouseout="small(this)"></a>
-        </th>
-    </tr>
-    <tr>
-        <th>
-            3
-        </th>
-        <th>
-            <a href="BeLiveCollection.html" style="text-decoration:none"> <font color="black">Be Live Collection </font> </a>
-        </th>
-        <th>
-            5/5 Estrellas
-        </th>
-        <th>
-            <a href="BeLiveCollection.html"> <img src="img/collection.jpg" width="200" onmouseover="Big(this)" onmouseout="small(this)"></a>
-        </th>
-    </tr>
-    <tr>
-        <th>
-            4
-        </th>
-        <th>
-            <a href="PuntaCanaPrincess.html" style="text-decoration:none"><font color="black"> Punta Cana Princess </font> </a>
-        </th>
-        <th>
-            5/5 Estrellas
-        </th>
-        <th>
-            <a href="PuntaCanaPrincess.html">  <img src="img/Princess.jpg" width="200" onmouseover="Big(this)" onmouseout="small(this)"></a>
-        </th>
-    </tr>
-    <tr>
-        <th>
-            5
-        </th>
-        <th>
-            <a href="BavaroPrincessBeachResortSpaandCasino.html" style="text-decoration:none"> <font color="black"> B�varo Princess Beach Resort, Spa and Casino </font> </a>
-        </th>
-        <th>
-            5/5 Estrellas
-        </th>
-        <th>
-            <a href="BavaroPrincessBeachResortSpaandCasino.html">   <img src="img/club.jpg" width="200" onmouseover="Big(this)" onmouseout="small(this)"></a>
-        </th>
-    </tr>
-    <tr>
-        <th>
-            6
-        </th>
-        <th>
-            <a href="Tropical PrincesBeachResortandspa.html" style="text-decoration:none"><font color="black"> Tropical Princes Beach Resort and Spa </font></a>
-        </th>
-        <th>
-            4/5 Estrellas
-        </th>
-        <th>
-            <a href="Tropical PrincesBeachResortandspa.html"> <img src="img/tropicalprincessbeach.jpg" width="200" onmouseover="Big(this)" onmouseout="small(this)"></a>
-        </th>
-    </tr>
-    <tr>
-        <th>
-            7
-        </th>
-        <th>
-            <a href="CaribeclubPrincessBeachResortandSpa.html" style="text-decoration:none"> <font color="black"> Caribe club Princess Beach Resort and Spa </font></a>
-        </th>
-        <th>
-            4/5 Estrellas
-        </th>
-        <th>
-            <a href="CaribeclubPrincessBeachResortandSpa.html">  <img src="img/resort.jpg" width="200" onmouseover="Big(this)" onmouseout="small(this)"></a>
-        </th>
-    </tr>
-    <tr>
-        <th>
-            8
-        </th>
-        <th>
-            <a href="OccidentalCaribe.html" style="text-decoration:none"> <font color="black">Occidental Caribe </font> </a>
-        </th>
-        <th>
-            4/5  Estrellas
-        </th>
-        <th>
-            <a href="OccidentalCaribe.html">  <img src="img/OccidentalCaribe.jpg" width="200" onmouseover="Big(this)" onmouseout="small(this)"></a>
-        </th>
-    </tr>
-    <tr>
-        <th>
-            9
-        </th>
-        <th>
-            <a href="BarceloBavaroPalace.html" style="text-decoration:none">  <font color="black"> Barcel� B�varo Palace </font> </a>
-        </th>
-        <th>
-            5/5  Estrellas
-        </th>
-        <th>
-            <a href="BarceloBavaroPalace.html">  <img src="img/BarceloPalaceDeluxe.jpg" width="200" onmouseover="Big(this)" onmouseout="small(this)"></a>
-        </th>
-    </tr>
-    <tr>
-        <th>
-            10
-        </th>
-        <th>
-            <a href="BarceloBavaroBeachSoloAdulto.html" style="text-decoration:none"> <font color="black"> Barcel� B�varo Beach Solo Adulto</font> </a>
-        </th>
-        <th>
-            4/5  Estrellas
-        </th>
-        <th>
-            <a href="BarceloBavaroBeachSoloAdulto.html">  <img src="img/BarceloBavaroBeachSoloAdulto.jpg" width="200" onmouseover="Big(this)" onmouseout="small(this)"></a>
-        </th>
-    </tr>
-    <tr>
-        <th>
-            11
-        </th>
-        <th>
-            <a href="OccidentalPuntaCana.html" style="text-decoration:none"> <font color="black"> Occidental Punta Cana </font></a>
-        </th>
-        <th>
-            5/5  Estrellas
-        </th>
-        <th>
-            <a href="OccidentalPuntaCana.html">  <img src="img/occidentalpuntacana.jpg" width="200" onmouseover="Big(this)" onmouseout="small(this)"></a>
-        </th>
-    </tr>
-    <tr>
-        <th>
-            12
-        </th>
-        <th>
-            <a href="CataloniaBavaroBeachGolfandCasino.html" style="text-decoration:none"><font color="black"> Catalonia B�varo Beach Golf and Casino </font></a>
-        </th>
-        <th>
-            5/5  Estrellas
-        </th>
-        <th>
-            <a href="CataloniaBavaroBeachGolfandCasino.html">  <img src="img/CataloniaB�varo.jpg" width="200" onmouseover="Big(this)" onmouseout="small(this)"></a>
-        </th>
-    </tr>
-    <tr>
-        <th>
-            13
-        </th>
-        <th>
-            <a href="CataloniaRoyalBavaro.html" style="text-decoration:none"> <font color="black">Catalonia Royal B�varo</font> </a>
-        </th>
-        <th>
-            5/5  Estrellas
-        </th>
-        <th>
-            <a href="CataloniaRoyalBavaro.html">  <img src="img/CataloniaRoyalB�varo.jpg" width="200" onmouseover="Big(this)" onmouseout="small(this)"></a>
-        </th>
-    </tr>
-    <tr>
-        <th>
-            14
-        </th>
-        <th>
-            <a href="CataloniaGranDominicus.html" style="text-decoration:none"><font color="black"> Catalonia Gran Dominicus</font> </a>
-        </th>
-        <th>
-            4/5  Estrellas
-        </th>
-        <th>
-            <a href="CataloniaGranDominicus.html">  <img src="img/cataloniagrandominicus.jpg" width="200" onmouseover="Big(this)" onmouseout="small(this)"></a>
-        </th>
-    </tr>
-    <tr>
-        <th>
-            15
-        </th>
-        <th>
-            <a href="CataloniaRoyalLaRomana.html" style="text-decoration:none"> <font color="black"> Catalonia Royal La Romana </font></a>
-        </th>
-        <th>
-            3/5  Estrellas
-        </th>
-        <th>
-            <a href="CataloniaRoyalLaRomana.html">  <img src="img/CataloniaRoyalLaRomana.jpg" width="200" onmouseover="Big(this)" onmouseout="small(this)"></a>
-        </th>
-    </tr>
-</table></center>
+        <!-- Bootstrap css -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-   <font face="Century gothic" size="5" color="white"><center>Llego el Verano���
-ven con tu Familia a Disfrutar de Sol, Playa, Arena y el Grato Calor Dominicano.
-no te Arrepentir�s de visitar nuestro Bella Isla Caribe�a </center></font>
-</div>
+        <!-- Font awesome css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="bookform.css">
 
-  </body>
+        <!-- Favicons -->
+        <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-precomposed.png">
+        <link rel="shortcut icon" type="image/png" href="img/favi-con.png"/>  
+        <link rel="stylesheet" href="resortstyle.css">
+        <link rel="stylesheet" href="excursionstyle.css">
+
+
+    </head>
+    <body>
+        <header class="header_area" style="background-color: white;">     
+            <div class="header_bottom">
+                <div class="container">
+                    <div class="main_header">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-2">
+                                <div class="logo">
+                                    <a href="index.html"><img src="images/logo.jpg" alt="Site Logo"></a>                     
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-sm-10 nav_area">
+                                <nav class="main_menu">
+                                    <div class="navbar-collapse collapse"> 
+                                        <ul class="nav navbar-nav navbar-right">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="transportation.html">Transfers</a></li>
+                                            <li><a href="resorts.html">Hotels</a></li>
+                                            <li><a href="excursion.html">Excursions</a></li>
+                                            <li><a href="Reservation.html">Reservation</a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>         
+        </header>
+            
+                <div class="container">
+                        <div class="title">
+                          <h1><Strong>We have found these hotels for you!</strong></h1>
+                        </div>
+                        
+                        <ul class="list">
+                          <li>
+                            <img src="https://images.trvl-media.com/media/content/expus/graphics/launch/hotel1320x742.jpg" alt="" />
+                            <div class="hotel-name"><a href="#">Hotel 1</a></div>
+                            <div class="info"><span>Days:</span> 10/01/2017 - 10/03/2017</div>
+                            <div class="info"><span>Price:</span> $$$ <span class="discount"></span></div>
+                            <div class="btn" name="select" type="select" id="select-hotel" data-submit="...Sending"><a href="/bookform.html">Select</a></div>
+                          </li>
+                          <li>
+                            <img src="https://skift.com/wp-content/uploads/2017/05/even_hotels_new_york_____times_square_south-e1494001743503.jpg" alt="" />
+                            <div class="hotel-name"><a href="#">Hotel 2</a></div>
+                            <div class="info"><span>Days:</span> 10/01/2017 - 10/03/2017</div>
+                            <div class="info"><span>Price:</span> $$$ <span class="discount"></span></div>
+                            <div class="btn"><a href="#">Select</a></div>
+                          </li>
+                          
+                          <li>
+                            <img src="https://d3hdm9bjz45yxn.cloudfront.net/userfiles/hotels/thumbshd/693/693_palmariva-eretria-hotel_99124.jpeg" alt="" />
+                            <div class="hotel-name"><a href="#">Hotel 3</a></div>
+                            <div class="info"><span>Days:</span> 10/01/2017 - 10/03/2017</div>
+                            <div class="info"><span>Price:</span> $$$ <span class="discount"></span></div>
+                            <div class="btn"><a href="#">Select</a></div>
+                          </li>
+                          
+                          <li>
+                            <img src="https://d3tbdp5zbjzb8t.cloudfront.net/userfiles/hotels/pictureshd/102/102_aegean-melathron_75865.jpeg?w=220&h=190&mode=crop" alt="" />
+                            <div class="hotel-name"><a href="#">Hotel 4</a></div>
+                            <div class="info"><span>Days:</span> 10/01/2017 - 10/03/2017</div>
+                            <div class="info"><span>Price:</span> $$$ <span class="discount"></span></div>
+                            <div class="btn"><a href="#">Select</a></div>
+                          </li>
+                        </ul>
+                      </div>
+                      
+                      <footer id="page_footer">
+                            <p>Copyright @2019 Tours Operadores Esperansas.</p>
+                          
+                          </footer>
+                    
+        
+    </body>
 </html>
